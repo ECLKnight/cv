@@ -14,11 +14,11 @@ hr {
 }
 
 h1 {
-  color: #2a7886;
+  color: #00aeff;
 }
 
 h3 {
-  color: #2a7886;
+  color: #00aeff;
 }
 
 img:hover {
@@ -42,5 +42,5 @@ img:hover {
 /* HTML element can only hold one ID */
 
 #heading {
-  color: #2a7886;
+  color: #00aeff;
 }
