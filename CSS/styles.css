@@ -1,0 +1,46 @@
+/* External CSS
+    We can applie to each page calling this file using a link href */
+body {
+  background-color: #f1f3f4;
+}
+
+/* Why does the color for hr change? When I have border-color ontop of border-style */
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: #2a7886;
+  border-width: 5px;
+  width: 25%;
+}
+
+h1 {
+  color: #00aeff;
+}
+
+h3 {
+  color: #00aeff;
+}
+
+img:hover {
+  height: 65%;
+}
+/* ------------------- CLASS SELECTORS ----------------------------- */
+/* Multiple elements in a html file can call the same CLASS */
+/* HTML element can hold multiple elements */
+
+/* All .png are not created equal */
+.testImage {
+  background-color: blue;
+}
+
+.circular {
+  border-radius: 10%;
+}
+
+/* -------------------- ID SELECTORS ------------------------------- */
+/* Only one element in a HTML file can call a specific ID */
+/* HTML element can only hold one ID */
+
+#heading {
+  color: #00aeff;
+}
